@@ -1,7 +1,10 @@
 // Lección 1 - Primer script de JavaScript
-// Mensaje 1
+
+// Mensajes de consola
 console.log("¡Hola! Este es mi primer script de la lección 1.");
-// Mensaje 2
-console.log("Bienvenido a la aplicación de JavaScript que he creado");
-// Mensaje 3
+console.log("Bienvenido/a la aplicación de JavaScript que he creado");
 console.log("¡Puedes probar sus funciones!");
+
+// Interacción con el usuario
+let nombre = prompt("¿Cuál es tu nombre?");
+alert("¡" + nombre + ", Me alegra tenerte por aquí!");
