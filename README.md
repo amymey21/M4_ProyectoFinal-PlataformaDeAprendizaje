@@ -15,10 +15,18 @@ Proyecto final del módulo 4 – Plataforma de Aprendizaje en JavaScript
 ## Lección 2
 
 - Se trabajó con variables y operaciones básicas (+,-,\*,/).
-- Se implementaron estructuras condicionales (if, else, switch) para evaluar diferentes situaciones.
+- Se implementaron estructuras _condicionales_ (if, else, switch) para evaluar diferentes situaciones.
 - Se validó la división por cero con un mensaje de error.
   Se integró todo en una aplicación de consola activada bajo demanda mediante un botón en el HTML.
 - Los resultados se muestran tanto en la consola como en alertas.
+
+## Lección 3
+
+- Se creó un _array historial_ para almacenar los resultados de las operaciones.
+- Se recorrió el historial utilizando ciclos for y while.
+- Se implementó una función de filtrado (filtrarMayoresQue) para seleccionar resultados mayores a un valor específico.
+- Se integró todo en la calculadora, mostrando el historial y los resultados filtrados en consola.
+- Se guardó el avance en GitHub en el bhanch lección-3
 
 ---
 
