@@ -28,6 +28,14 @@ Proyecto final del módulo 4 – Plataforma de Aprendizaje en JavaScript
 - Se integró todo en la calculadora, mostrando el historial y los resultados filtrados en consola.
 - Se guardó el avance en GitHub en el bhanch lección-3
 
+## Lección 4
+
+- Se modularizó la calculadora creando funciones específicas para cada operación matemática (`sumar`, `restar`, `multiplicar`, `dividir`).
+- Se implementó una función principal (`calcularOperacion`) que recibe parámetros y retorna resultados, llamando internamente a las funciones matemáticas.
+- Se mantuvo la integración con el historial de operaciones y la función de filtrado de la Lección 3.
+- Se conservaron las versiones anteriores comentadas en el archivo `index.js` como documentación del progreso.
+- Se guardó el avance en GitHub en el branch `lección-4`.
+
 ---
 
 Este repositorio documenta mi progreso en el Módulo 4, integrando buenas prácticas de estructura, JavaScript y control de versiones con Git y GitHub.
