@@ -1,0 +1,110 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafc;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Encabezados */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  color: #555;
+}
+
+
+/* Instrucciones */
+#instrucciones {
+  background-color: #fce4ec; /* rosa pastel */
+  border: 2px solid #f8bbd0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#instrucciones h3 {
+  color: #6a1b9a; /* violeta */
+  margin-top: 0;
+}
+
+#instrucciones h4 {
+  color: #ad1457; /* rosa fuerte */
+}
+
+#instrucciones ul {
+  list-style-type: "⭐ ";
+  padding-left: 20px;
+}
+
+/* Cuuestionario */
+#contenedor-problemas {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Botón calculadora */
+#initBtn {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 12px 20px;
+  background-color: #ffb6c1; /* rosa pastel */
+  color: #333;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#initBtn:hover {
+  background-color: #ff9aa2;
+}
+
+
+/* Botón Revisar */
+#cuestionario button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 20px;
+  background-color: #a5d6a7; /* verde pastel */
+  color: #333;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#cuestionario button:hover {
+  background-color: #81c784;
+}
+
+
+/* Inputs */
+.problema input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+/* Resultado */
+#resultado {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff9c4; /* amarillo pastel */
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  color: #795548;
+}

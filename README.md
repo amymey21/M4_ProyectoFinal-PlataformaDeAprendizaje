@@ -1,41 +1,46 @@
-# M4_ProyectoFinal-PlataformaDeAprendizaje
+Plataforma de Aprendizaje Interactivo
 
-Proyecto final del módulo 4 – Plataforma de Aprendizaje en JavaScript
+# 📘 Descripción
 
-# M4 Proyecto Final - Plataforma de Aprendizaje
+Esta aplicación es una plataforma de aprendizaje interactivo desarrollada en JavaScript, HTML y CSS.
+Permite al usuario practicar operaciones matemáticas mediante una calculadora básica y responder un cuestionario con problemas narrativos.
+El sistema evalúa las respuestas, calcula un puntaje según reglas definidas y guarda un historial de operaciones por estudiante.
 
-## Lección 1
+# 🚀 Cómo usar la aplicación
 
-- Se creó la estructura inicial del proyecto con carpeta `assets` que contiene `js`, `css` e `img`.
-- Se conectó el archivo `index.js` al `index.html`.
-- Se practicó el uso de `console.log` para mostrar mensajes en la consola.
-- Se implementó `prompt()` y `alert()` para interactuar con el usuario.
-- Se registró el avance en GitHub con commits en la rama `main`.
+## Abrir en navegador
 
-## Lección 2
+- Descarga el proyecto y abre el archivo index.html en cualquier navegador moderno.
 
-- Se trabajó con variables y operaciones básicas (+,-,\*,/).
-- Se implementaron estructuras _condicionales_ (if, else, switch) para evaluar diferentes situaciones.
-- Se validó la división por cero con un mensaje de error.
-  Se integró todo en una aplicación de consola activada bajo demanda mediante un botón en el HTML.
-- Los resultados se muestran tanto en la consola como en alertas.
+## Usar la calculadora
 
-## Lección 3
+- Haz clic en el botón “Usar la calculadora”.
+- Ingresa los números y el símbolo de la operación (+, -, \*, /).
+- El resultado se mostrará en pantalla y se guardará en el historial narrativo.
+- Puedes realizar varias operaciones seguidas; al cancelar, el ciclo se detiene.
 
-- Se creó un _array historial_ para almacenar los resultados de las operaciones.
-- Se recorrió el historial utilizando ciclos for y while.
-- Se implementó una función de filtrado (filtrarMayoresQue) para seleccionar resultados mayores a un valor específico.
-- Se integró todo en la calculadora, mostrando el historial y los resultados filtrados en consola.
-- Se guardó el avance en GitHub en el bhanch lección-3
+## Responder el cuestionario
 
-## Lección 4
+- Completa los campos numéricos de cada problema.
+- Haz clic en “Revisar” para obtener tu puntaje.
+- El sistema mostrará el resultado en pantalla y registrará las operaciones en consola.
 
-- Se modularizó la calculadora creando funciones específicas para cada operación matemática (`sumar`, `restar`, `multiplicar`, `dividir`).
-- Se implementó una función principal (`calcularOperacion`) que recibe parámetros y retorna resultados, llamando internamente a las funciones matemáticas.
-- Se mantuvo la integración con el historial de operaciones y la función de filtrado de la Lección 3.
-- Se conservaron las versiones anteriores comentadas en el archivo `index.js` como documentación del progreso.
-- Se guardó el avance en GitHub en el branch `lección-4`.
+## 🛠️ Tecnologías utilizadas
 
----
+- HTML5: estructura de la aplicación y formulario del cuestionario.
+- CSS3: estilos visuales con paleta pastel, botones interactivos y diseño responsivo.
+- JavaScript (ES6): lógica de la calculadora, funciones matemáticas, objetos de problemas, historial narrativo y evaluación del cuestionario.
 
-Este repositorio documenta mi progreso en el Módulo 4, integrando buenas prácticas de estructura, JavaScript y control de versiones con Git y GitHub.
+📂 Estructura del código
+
+- index.html
+  Contiene la interfaz principal: título, instrucciones, botón de calculadora y formulario del cuestionario.
+- style.css
+  Define los estilos visuales: colores pastel, botones, inputs y recuadros de resultados.
+- index.js
+  Incluye la lógica:
+  - Funciones matemáticas (sumar, restar, multiplicar, dividir).
+  - Función calcularOperacion para mostrar resultados.
+  - Ciclo while que controla la calculadora y guarda operaciones en el historial.
+  - Objeto problemas con respuestas correctas, historial y cantidad ideal de operaciones.
+  - Función evaluarCuestionario que calcula puntaje y muestra resultados.

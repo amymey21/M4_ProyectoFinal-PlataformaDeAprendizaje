@@ -9,12 +9,77 @@
   </head>
 
   <body>
-    <h1>Aplicación en JavaScript</h1>
+    <h1>Aplicación de consola: Plataforma de aprendizaje interactivo</h1>
     <h2>
-      Por favor, abre la consola del navegador para visualizar el funcionamiento
-      de la aplicación
+      (Abre la consola del navegador para visualizar el funcionamiento de la
+      aplicación.)
     </h2>
-    <button id="initBtn">Haz click aquí para calcular</button>
+
+    <div id="instrucciones">
+      <h3>📘 Instrucciones del cuestionario</h3>
+      <p>
+        Responde cada problema matemático escribiendo tu resultado en el campo
+        correspondiente. Al finalizar, haz clic en <strong>Revisar</strong> para
+        obtener tu puntaje.
+      </p>
+
+      <h4>Reglas del puntaje:</h4>
+      <ul>
+        <li>✅ Cada respuesta correcta suma <strong>10 puntos</strong>.</li>
+        <li>❌ Cada respuesta incorrecta resta <strong>5 puntos</strong>.</li>
+        <li>
+          ✨ Si usas la cantidad ideal de operaciones, ganas un bono de
+          <strong>+2 puntos</strong>.
+        </li>
+        <li>
+          ⚠️ Si excedes la cantidad ideal de operaciones, pierdes
+          <strong>1 punto</strong>.
+        </li>
+        <li>
+          🏆 El puntaje final se mostrará en pantalla y se guardará en el
+          historial.
+        </li>
+      </ul>
+    </div>
+
+    <div id="contenedor-problemas">
+      <button id="initBtn">Usar la calculadora</button>
+      <form id="cuestionario">
+        <div class="problema">
+          <p>
+            1. Tienes 120 manzanas, vendes 35 y 28, luego compras 50. ¿Cuántas
+            tienes?
+          </p>
+          <input type="number" id="respuesta0" />
+        </div>
+        <div class="problema">
+          <p>
+            2. Un bus lleva 48 estudiantes, bajan 11, suben 27, se dividen en 4
+            grupos. ¿Cuántos por grupo?
+          </p>
+          <input type="number" id="respuesta1" />
+        </div>
+        <div class="problema">
+          <p>
+            3. La biblioteca recibe 240 libros nuevos. Se reparten en 6 estantes
+            equitativamente. Luedo se sacan 15 de cada estante. ¿Cuántos quedan
+            en cada uno?
+          </p>
+          <input type="number" id="respuesta2" />
+        </div>
+        <div class="problema">
+          <p>
+            4. Cada equipo tiene 11 jugarores. Se inscriben 8 equipos. En el
+            primer partido, 3 jugadores de un equipo no juegan. ¿Cuántos
+            jugadores participan?
+          </p>
+          <input type="number" id="respuesta3" />
+        </div>
+
+        <button type="submit">Revisar</button>
+        <div id="resultado"></div>
+      </form>
+    </div>
 
     <script src="./assets/js/index.js"></script>
   </body>
