@@ -43,6 +43,7 @@ Proyecto final del módulo 4 – Plataforma de Aprendizaje en JavaScript
 - Se reutilizó las funciones matemáticas (sumar, restar, multiplicar, dividir) para calcular y registrar los pasos de cada operación.
 - Se integró un historial narrativo por estudiante en el objeto resultadosEstudiantes, guardando las operaciones realizadas en formato matemático.
 - Se amplió la lógica del cuestionario: cada problema incluye su respuesta correcta, historial de intentos y cantidad ideal de operaciones, con reglas de puntaje (+10, -5, +2, -1).
+- Se creó contenido del documento style.css con IA en su totalidad, para darle una estética más amigable a la aplicación.
 - Se mantuvo la documentación del proceso en el código mediante comentarios y se registró el avance en GitHub en el branch lección-5.
 
 ---
