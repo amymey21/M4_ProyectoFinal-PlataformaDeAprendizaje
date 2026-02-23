@@ -1,8 +1,4 @@
-# M4_ProyectoFinal-PlataformaDeAprendizaje
-
-Proyecto final del módulo 4 – Plataforma de Aprendizaje en JavaScript
-
-# M4 Proyecto Final - Plataforma de Aprendizaje
+# M4 Proyecto Final Módulo 4 - Plataforma de Aprendizaje
 
 ## Lección 1
 
@@ -17,7 +13,7 @@ Proyecto final del módulo 4 – Plataforma de Aprendizaje en JavaScript
 - Se trabajó con variables y operaciones básicas (+,-,\*,/).
 - Se implementaron estructuras _condicionales_ (if, else, switch) para evaluar diferentes situaciones.
 - Se validó la división por cero con un mensaje de error.
-  Se integró todo en una aplicación de consola activada bajo demanda mediante un botón en el HTML.
+- Se integró todo en una aplicación de consola activada bajo demanda mediante un botón en el HTML.
 - Los resultados se muestran tanto en la consola como en alertas.
 
 ## Lección 3

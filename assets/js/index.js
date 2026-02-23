@@ -218,7 +218,6 @@ LECCIÓN 5 - Conceptos básicos de objetos en JavaScript
 ======================================================*/
 
 // Calculadora con ciclo while
-
 document
   .getElementById("initBtn")
   .addEventListener("click", function calcular() {
